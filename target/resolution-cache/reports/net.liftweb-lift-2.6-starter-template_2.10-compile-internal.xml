@@ -7,7 +7,7 @@
 		revision="0.0.3"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20131226100815"/>
+		date="20140107080521"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
 			<revision name="2.2.3" status="release" pubdate="20131023103726" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">

@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/ivan/MyProjects/lift-casper/}default-25af4c...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/ivan/MyProjects/LiftCasp/}default-67b713...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: net.liftweb#lift-2.6-starter-template_2.10;0.0.3[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -2001,7 +2001,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/net.liftweb/lift-2.6-starter-template_2.10/0.0.3/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/net.liftweb/lift-2.6-starter-template_2.10/0.0.3/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-webkit_2.10;2.6-M2!lift-webkit_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-mapper_2.10;2.6-M2!lift-mapper_2.10.jar[0m
@@ -2047,19 +2047,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-scalaz-concurrent_2.10;7.0.0!specs2-scalaz-concurrent_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1636ms :: artifacts dl 75ms[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 compile produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 runtime produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 test produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 provided produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 optional produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 compile-internal produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 runtime-internal produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 test-internal produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 plugin produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 sources produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 docs produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 pom produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 container produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-container.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1636ms resolve - 75ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1616ms :: artifacts dl 66ms[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 compile produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 runtime produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 test produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 provided produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 optional produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 compile-internal produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 runtime-internal produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 test-internal produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 plugin produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 sources produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 docs produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 pom produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template_2.10;0.0.3 container produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template_2.10-container.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1616ms resolve - 66ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -6,7 +6,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f8b1995[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4920989c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.0 in sbt-chain[0m
@@ -15,7 +15,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scala-library;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-webkit_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-webkit_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22c3b003[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c09dbb4[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-webkit_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-webkit_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-webkit_2.10;2.6-M2 in sbt-chain[0m
@@ -24,7 +24,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-webkit_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-util_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-util_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32fe2461[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ae433f1[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-util_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-util_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-util_2.10;2.6-M2 in sbt-chain[0m
@@ -33,7 +33,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-util_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-actor_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-actor_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3052e7ad[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68222d20[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-actor_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-actor_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-actor_2.10;2.6-M2 in sbt-chain[0m
@@ -42,7 +42,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-actor_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-common_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-common_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@578d6244[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63577d06[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-common_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-common_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-common_2.10;2.6-M2 in sbt-chain[0m
@@ -51,7 +51,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-common_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.slf4j#slf4j-api;1.7.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b64cab[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78cad2e3[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.2[0m
 [0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in sbt-chain[0m
@@ -60,7 +60,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.slf4j#slf4j-api;1.7.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-json_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-json_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23b62fa3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@372318b7[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-json_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-json_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-json_2.10;2.6-M2 in sbt-chain[0m
@@ -69,7 +69,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-json_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scalap;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d68a5b8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f627fe1[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scalap;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.0 in sbt-chain[0m
@@ -78,7 +78,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scalap;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scala-compiler;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@703ac4f2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2204a360[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain[0m
@@ -87,7 +87,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scala-compiler;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scala-reflect;2.10.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@337caeab[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d886e34[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
@@ -96,7 +96,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.scala-lang#scala-reflect;2.10.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.4.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@773166bc[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14b4271a[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
 [0m[[0mdebug[0m] [0m	found com.thoughtworks.paranamer#paranamer;2.4.1 in sbt-chain[0m
@@ -105,7 +105,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-markdown_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-markdown_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@434f7f5c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d9e2ec8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-markdown_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-markdown_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-markdown_2.10;2.6-M2 in sbt-chain[0m
@@ -114,7 +114,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-markdown_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->joda-time#joda-time;2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@640cd5f3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19b6180d[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: joda-time#joda-time;2.1[0m
 [0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.1 in public[0m
@@ -123,7 +123,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->joda-time#joda-time;2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.joda#joda-convert;1.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64350a8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ce0dfbf[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.joda#joda-convert;1.2[0m
 [0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in public[0m
@@ -132,7 +132,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.joda#joda-convert;1.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->commons-codec#commons-codec;1.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78b25336[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13922ee8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.6[0m
 [0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.6 in sbt-chain[0m
@@ -141,7 +141,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->commons-codec#commons-codec;1.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->javax.mail#mail;1.4.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving javax.mail#mail;1.4.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b12a8c7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46b7c4a0[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: javax.mail#mail;1.4.4[0m
 [0m[[0mdebug[0m] [0m	found javax.mail#mail;1.4.4 in sbt-chain[0m
@@ -150,7 +150,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->javax.mail#mail;1.4.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->javax.activation#activation;1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@718634e8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77ad747[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: javax.activation#activation;1.1[0m
 [0m[[0mdebug[0m] [0m	found javax.activation#activation;1.1 in sbt-chain[0m
@@ -159,7 +159,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->javax.activation#activation;1.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->nu.validator.htmlparser#htmlparser;1.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving nu.validator.htmlparser#htmlparser;1.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36929468[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b52e370[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: nu.validator.htmlparser#htmlparser;1.4[0m
 [0m[[0mdebug[0m] [0m	found nu.validator.htmlparser#htmlparser;1.4 in sbt-chain[0m
@@ -168,7 +168,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->nu.validator.htmlparser#htmlparser;1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->commons-fileupload#commons-fileupload;1.2.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-fileupload#commons-fileupload;1.2.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2566195a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31b3f7f4[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-fileupload#commons-fileupload;1.2.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: commons-fileupload#commons-fileupload;1.2.2[0m
 [0m[[0mdebug[0m] [0m	found commons-fileupload#commons-fileupload;1.2.2 in sbt-chain[0m
@@ -177,7 +177,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->commons-fileupload#commons-fileupload;1.2.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-mapper_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-mapper_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4526efce[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ff0977[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-mapper_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-mapper_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-mapper_2.10;2.6-M2 in sbt-chain[0m
@@ -186,7 +186,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-mapper_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-db_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-db_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42bb1f7c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d6c6faf[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-db_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-db_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-db_2.10;2.6-M2 in sbt-chain[0m
@@ -195,7 +195,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-db_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-proto_2.10;2.6-M2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftweb#lift-proto_2.10;2.6-M2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cf5011b[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@579af7c4[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-proto_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-proto_2.10;2.6-M2[0m
 [0m[[0mdebug[0m] [0m	found net.liftweb#lift-proto_2.10;2.6-M2 in sbt-chain[0m
@@ -204,7 +204,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftweb#lift-proto_2.10;2.6-M2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftmodules#lift-jquery-module_2.6_2.10;2.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.liftmodules#lift-jquery-module_2.6_2.10;2.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c179b8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@239a634f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftmodules#lift-jquery-module_2.6_2.10;2.5[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: net.liftmodules#lift-jquery-module_2.6_2.10;2.5[0m
 [0m[[0mdebug[0m] [0m	found net.liftmodules#lift-jquery-module_2.6_2.10;2.5 in sbt-chain[0m
@@ -213,7 +213,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->net.liftmodules#lift-jquery-module_2.6_2.10;2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->ch.qos.logback#logback-classic;1.0.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17a7a00a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17e04218[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-classic;1.0.6[0m
 [0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.6 in sbt-chain[0m
@@ -222,7 +222,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->ch.qos.logback#logback-classic;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->ch.qos.logback#logback-core;1.0.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e6f715b[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bf8dc3c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.6[0m
 [0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.6 in sbt-chain[0m
@@ -231,7 +231,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->ch.qos.logback#logback-core;1.0.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.h2database#h2;1.3.167 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.h2database#h2;1.3.167 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@305ae721[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ceb6752[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.h2database#h2;1.3.167[0m
 [0m[[0mdebug[0m] [0m	found com.h2database#h2;1.3.167 in sbt-chain[0m
@@ -240,7 +240,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.h2database#h2;1.3.167 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.3-1100-jdbc41 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c4a81e6[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6788cb16[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.postgresql#postgresql;9.3-1100-jdbc41[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.postgresql#postgresql;9.3-1100-jdbc41[0m
 [0m[[0mdebug[0m] [0m	found org.postgresql#postgresql;9.3-1100-jdbc41 in sbt-chain[0m
@@ -249,7 +249,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.postgresql#postgresql;9.3-1100-jdbc41 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe.akka#akka-actor_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f04a274[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3407a533[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2.3 in sbt-chain[0m
@@ -258,7 +258,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe.akka#akka-actor_2.10;2.2.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe#config;1.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32f3cf42[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a159611[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.2[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.2 in sbt-chain[0m
@@ -267,7 +267,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe#config;1.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe.akka#akka-slf4j_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.2.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@231ef932[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ba8641a[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.2.3 in sbt-chain[0m
@@ -276,7 +276,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe.akka#akka-slf4j_2.10;2.2.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe.akka#akka-testkit_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.10;2.2.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c2922d2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f6499[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.10;2.2.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-testkit_2.10;2.2.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit_2.10;2.2.3 in sbt-chain[0m
@@ -912,7 +912,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->com.typesafe.akka#akka-testkit_2.10;2.2.3 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35f3f042[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3733fd9b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-webapp;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 in sbt-chain[0m
@@ -921,7 +921,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-xml;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f086c9f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@559c0881[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-xml;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-xml;8.1.7.v20120910 in sbt-chain[0m
@@ -930,7 +930,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41cf4dc0[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b8bbd7e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-util;8.1.7.v20120910 in sbt-chain[0m
@@ -939,7 +939,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3debdb21[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b905255[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-servlet;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 in sbt-chain[0m
@@ -948,7 +948,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-security;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@145aa926[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cf368c9[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-security;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-security;8.1.7.v20120910 in sbt-chain[0m
@@ -957,7 +957,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-server;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@381d201a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55342a2e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-server;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-server;8.1.7.v20120910 in sbt-chain[0m
@@ -966,7 +966,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a15fd7c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c4dc992[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain[0m
@@ -975,7 +975,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e95d70c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@85ae75c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-continuation;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 in sbt-chain[0m
@@ -984,7 +984,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cf3e664[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cb9602[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-http;8.1.7.v20120910 in sbt-chain[0m
@@ -993,7 +993,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.7.v20120910 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@99b7036[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d2593bf[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.7.v20120910[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-io;8.1.7.v20120910 in sbt-chain[0m
@@ -1002,7 +1002,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#specs2_2.10;1.14 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;1.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15fab3c5[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1adda7[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2_2.10;1.14[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2_2.10;1.14[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;1.14 in sbt-chain[0m
@@ -1011,7 +1011,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#specs2_2.10;1.14 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2-scalaz-core_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@288b6a66[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7550ebab[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2-scalaz-core_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2-scalaz-core_2.10;7.0.0 in sbt-chain[0m
@@ -1020,7 +1020,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b8806a7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3772d2db[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2-scalaz-concurrent_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 in sbt-chain[0m
@@ -1029,7 +1029,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#scalaz-effect_2.10;7.0.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#scalaz-effect_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c7d916[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@754ee271[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#scalaz-effect_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#scalaz-effect_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#scalaz-effect_2.10;7.0.0 in public[0m
@@ -1038,7 +1038,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#scalaz-effect_2.10;7.0.0 [test->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.specs2#scalaz-core_2.10;7.0.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#scalaz-core_2.10;7.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fa60283[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e3b9bed[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#scalaz-core_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#scalaz-core_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#scalaz-core_2.10;7.0.0 in public[0m
@@ -2352,7 +2352,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [container->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [container->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [container->master][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/net.liftweb/lift-2.6-starter-template$sources_javadoc_2.10/0.0.3/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/net.liftweb/lift-2.6-starter-template$sources_javadoc_2.10/0.0.3/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar(doc)[0m
@@ -2428,25 +2428,9 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/ivan/.ivy2/local/org.postgresql/postgresql/9.3-1100-jdbc41/docs/postgresql-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/ivan/.ivy2/local/org.postgresql/postgresql/9.3-1100-jdbc41/srcs/postgresql-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgresql#postgresql;9.3-1100-jdbc41!postgresql.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgresql#postgresql;9.3-1100-jdbc41!postgresql.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgresql#postgresql;9.3-1100-jdbc41!postgresql.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	staging: downloading http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	staging: downloading http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.postgresql#postgresql;9.3-1100-jdbc41!postgresql.jar(doc) (2647ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	staging: downloading http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar[0m
-[0m[[0mdebug[0m] [0m	staging: downloading http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.postgresql#postgresql;9.3-1100-jdbc41!postgresql.jar(src) (1690ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.3!akka-actor_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.3!akka-actor_2.10.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.3!akka-actor_2.10.jar(doc)[0m
@@ -2504,18 +2488,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(doc)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 929ms :: artifacts dl 5275ms[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 compile produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 runtime produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 test produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 provided produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 optional produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 compile-internal produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 runtime-internal produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 test-internal produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 plugin produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 sources produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 docs produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 pom produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 container produced in /Users/ivan/MyProjects/lift-casper/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-container.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (929ms resolve - 5275ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 998ms :: artifacts dl 152ms[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 compile produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 runtime produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 test produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 provided produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 optional produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 compile-internal produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 runtime-internal produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 test-internal produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 plugin produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 sources produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 docs produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 pom produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#lift-2.6-starter-template$sources_javadoc_2.10;0.0.3 container produced in /Users/ivan/MyProjects/LiftCasp/target/resolution-cache/reports/net.liftweb-lift-2.6-starter-template$sources_javadoc_2.10-container.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (998ms resolve - 152ms download)[0m

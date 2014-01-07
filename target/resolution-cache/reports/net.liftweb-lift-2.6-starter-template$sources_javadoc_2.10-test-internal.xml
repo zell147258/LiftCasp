@@ -7,7 +7,7 @@
 		revision="0.0.3"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20131226100817"/>
+		date="20140107080523"/>
 	<dependencies>
 		<module organisation="org.specs2" name="specs2_2.10">
 			<revision name="1.14" status="release" pubdate="20130220011028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
@@ -347,10 +347,10 @@
 				<metadata-artifact status="no" details="" size="2356" time="0" location="/Users/ivan/.ivy2/cache/org.postgresql/postgresql/ivy-9.3-1100-jdbc41.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41.pom"/>
 				<caller organisation="net.liftweb" name="lift-2.6-starter-template$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="9.3-1100-jdbc41" rev-constraint-default="9.3-1100-jdbc41" rev-constraint-dynamic="9.3-1100-jdbc41" callerrev="0.0.3"/>
 				<artifacts>
-					<artifact name="postgresql" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="199896" time="2647" location="/Users/ivan/.ivy2/cache/org.postgresql/postgresql/docs/postgresql-9.3-1100-jdbc41-javadoc.jar">
+					<artifact name="postgresql" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="199896" time="0" location="/Users/ivan/.ivy2/cache/org.postgresql/postgresql/docs/postgresql-9.3-1100-jdbc41-javadoc.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-javadoc.jar"/>
 					</artifact>
-					<artifact name="postgresql" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="369643" time="1690" location="/Users/ivan/.ivy2/cache/org.postgresql/postgresql/srcs/postgresql-9.3-1100-jdbc41-sources.jar">
+					<artifact name="postgresql" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="369643" time="0" location="/Users/ivan/.ivy2/cache/org.postgresql/postgresql/srcs/postgresql-9.3-1100-jdbc41-sources.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/staging/org/postgresql/postgresql/9.3-1100-jdbc41/postgresql-9.3-1100-jdbc41-sources.jar"/>
 					</artifact>
 					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="587064" time="0" location="/Users/ivan/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.3-1100-jdbc41.jar">

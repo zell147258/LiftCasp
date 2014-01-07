@@ -7,7 +7,7 @@
 		revision="0.0.3"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20131226100815"/>
+		date="20140107080521"/>
 	<dependencies>
 		<module organisation="org.specs2" name="specs2_2.10">
 			<revision name="1.14" status="release" pubdate="20130220011028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">

@@ -1,22 +1,22 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/ivan/MyProjects/lift-casper/project/}default-5f46fb...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-5f46fb;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/ivan/MyProjects/LiftCasp/project/}default-f6c505...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-f6c505;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving default#default-20fe13;0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: default#default-20fe13;0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m	found default#default-20fe13;0.0 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1[0m
 [0m[[0mdebug[0m] [0m	found com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -37,15 +37,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.3.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.3.0[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.3.0[0m
 [0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.3.0 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -55,8 +55,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2[0m
@@ -82,12 +82,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -96,16 +96,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2->com.typesafe.sbteclipse#sbteclipse-core;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -116,13 +116,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -131,16 +131,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2->com.typesafe.sbteclipse#sbteclipse-core;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -151,8 +151,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.12.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.12.4[0m
@@ -669,19 +669,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -690,16 +690,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2->com.typesafe.sbteclipse#sbteclipse-core;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -709,9 +709,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -1023,18 +1023,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -1043,16 +1043,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2->com.typesafe.sbteclipse#sbteclipse-core;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -1062,16 +1062,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->default#default-20fe13;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
@@ -1080,16 +1080,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.3.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.2->com.typesafe.sbteclipse#sbteclipse-core;2.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->runtime][0m
@@ -1099,9 +1099,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.9.2;6.0.4->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.2->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -1413,19 +1413,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-5f46fb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-f6c505;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-5f46fb;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/default/default-5f46fb/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-f6c505;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/default/default-f6c505/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1!xsbt-web-plugin_2.9.2.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.3.0!sbt-idea.jar[0m
@@ -1475,18 +1475,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1671ms :: artifacts dl 52ms[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT compile produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT runtime produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT test produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT provided produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT optional produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT compile-internal produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT runtime-internal produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT test-internal produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT plugin produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT sources produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT docs produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-5f46fb;0.1-SNAPSHOT pom produced in /Users/ivan/MyProjects/lift-casper/project/target/resolution-cache/reports/default-default-5f46fb-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1671ms resolve - 52ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1634ms :: artifacts dl 47ms[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT compile produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT runtime produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT test produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT provided produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT optional produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT compile-internal produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT runtime-internal produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT test-internal produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT plugin produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT sources produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT docs produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-f6c505;0.1-SNAPSHOT pom produced in /Users/ivan/MyProjects/LiftCasp/project/target/resolution-cache/reports/default-default-f6c505-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1634ms resolve - 47ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

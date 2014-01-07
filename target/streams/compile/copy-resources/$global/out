@@ -1,5 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/ivan/MyProjects/lift-casper/src/main/resources/application.conf,/Users/ivan/MyProjects/lift-casper/target/scala-2.10/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/ivan/MyProjects/lift-casper/src/main/resources/logback.xml,/Users/ivan/MyProjects/lift-casper/target/scala-2.10/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/Users/ivan/MyProjects/lift-casper/src/main/resources/props,/Users/ivan/MyProjects/lift-casper/target/scala-2.10/classes/props)[0m
-[0m[[0mdebug[0m] [0m	(/Users/ivan/MyProjects/lift-casper/src/main/resources/props/default.props,/Users/ivan/MyProjects/lift-casper/target/scala-2.10/classes/props/default.props)[0m

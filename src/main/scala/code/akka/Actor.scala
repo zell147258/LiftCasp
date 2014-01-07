@@ -200,9 +200,16 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
 
         }
         else {
+          if(next != null){
           val sleep = new Period(DateTime.now(), new DateTime(next)).toStandardSeconds.getSeconds
           newLog("Target complete. Wait " + sleep + " seconds")
           ActorManager.system.scheduler.scheduleOnce(sleep seconds, self, RunJob())
+          }
+          else{
+            stop = true
+            newLog("Job Complete")
+          }
+
         }
 
       }
