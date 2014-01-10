@@ -286,20 +286,23 @@ class JobDetail {
         val now = DateTime.now()
         var interval = new Interval(startDate, endDate)
         println(interval)
-        val day = interval.toPeriod.getDays
-        var days: List[DateTime] = List(startDate)
+        val day = 0
+        var days: List[DateTime] = List.empty[DateTime]
+        var startD = startDate
 
-        Range(1, day + 1).foreach {
-          d =>
-            val new_date = startDate.plusDays(d)
-            days = new_date :: days
+
+        while (!startD.isEqual(endDate)) {
+          days = startD :: days
+          startD = startD.plusDays(1)
         }
+        days = startD :: days
+
+
         times.map {
           t =>
             days.map {
               d =>
                 Scheduler.create.time(d.plusHours(t.time.getHourOfDay).plusMinutes(t.time.getMinuteOfHour).toDate).hit(t.hit).job(CurrentJob.get.get).save()
-                Scheduler.reload
             }
         }
         reRender

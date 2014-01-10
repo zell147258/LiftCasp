@@ -291,3 +291,4 @@ container:stop
 container:start
 gen-ide
 gen-idea
+container:start
