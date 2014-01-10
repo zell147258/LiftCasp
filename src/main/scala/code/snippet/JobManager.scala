@@ -225,25 +225,25 @@ class JobDetail {
     reRender
   }
 
-  def getTable = {
-    if (CurrentJob.get.isDefined) {
-      CurrentJob.get.get.urls.map {
-        u => <tr id={"job_urls_id_" + u.id}>
-          <td>
-            <span>
-              {u.url}
-            </span>
-          </td>
-
-          <td>
-            {a(() => deleteUrl(u), <button class="btn btn-default">Delete</button>)}
-          </td>
-        </tr>
-      }
-    }
-    else
-      <span>No job Selected</span>
-  }
+//  def getTable = {
+//    if (CurrentJob.get.isDefined) {
+//      CurrentJob.get.get.urls.map {
+//        u => <tr id={"job_urls_id_" + u.id}>
+//          <td>
+//            <span>
+//              {u.url}
+//            </span>
+//          </td>
+//
+//          <td>
+//            {a(() => deleteUrl(u), <button class="btn btn-default">Delete</button>)}
+//          </td>
+//        </tr>
+//      }
+//    }
+//    else
+//      <span>No job Selected</span>
+//  }
 
   def addUrl = {
     Url.create.url(new_url).pid(CurrentJob.get.get).save
@@ -450,7 +450,7 @@ class JobDetail {
 
 
   def render = {
-    "#jobdetail-urls-list-table" #> getTable &
+//    "#jobdetail-urls-list-table" #> getTable &
       "#JobDetailManager *" #> {
         renderHead ++ renderFunction ++ renderSchedulerForm ++ renderScheduler ++ renderUrls
       }
