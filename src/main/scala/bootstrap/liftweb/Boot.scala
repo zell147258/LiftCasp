@@ -36,7 +36,7 @@ class Boot {
     // Use Lift's Mapper ORM to populate the database
     // you don't need to use Mapper to use Lift... use
     // any ORM you want
-    val table = List(User, Job, Proxy, UserAgent, Url,Scheduler,JobLog)
+    val table = List(User, Job, Proxy, UserAgent, Url,Scheduler,JobLog,SchedulerTime)
     table.map(t => Schemifier.schemify(true, Schemifier.infoF _, t))
 
     // where to search snippet

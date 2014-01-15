@@ -4,7 +4,7 @@ import net.liftweb.http.{SessionVar, RequestVar, S}
 import net.liftweb.util.{StringHelpers, Helpers}
 import Helpers._
 import net.liftweb.http.SHtml._
-import code.model.{Scheduler, Url, Job}
+import code.model._
 import net.liftweb.http.js.JsCmds.{Alert, SetHtml}
 import net.liftweb.common.Empty
 import net.liftweb.http.js.{JsCmd, JsCmds}
@@ -13,9 +13,13 @@ import scala.xml.NodeSeq
 import net.liftweb.http.js.jquery.JqJsCmds
 import net.liftweb.http.js.jquery.JqJE.{JqRemove, JqId}
 import code.utils.Remove
-import org.joda.time.{Interval, DateTime}
+import org.joda.time.{ReadableInterval, Period, Interval, DateTime}
 import org.joda.time.format.{DateTimeFormat, ISODateTimeFormat, DateTimeFormatter}
 import code.akka.StopJobById
+import net.liftweb.http.js.JsCmds.Alert
+import code.akka.StopJobById
+import scala.Some
+import net.liftweb.http.js.JsCmds.SetHtml
 
 
 /**
@@ -126,6 +130,7 @@ class JobDetail {
   var times: List[Line] = List(newLine)
   var startDate: DateTime = null
   var startDateValid = false
+  var overlapsError = true
   var endDate: DateTime = null
   var endDateValid = false
   val dateParser = DateTimeFormat.forPattern("dd-MM-yyyy")
@@ -217,6 +222,7 @@ class JobDetail {
   private def newLine = Line("time_line_" + StringHelpers.randomString(20), null, 0, false, true)
 
   def reRender = {
+    CurrentJob(Some(CurrentJob.get.get.reload))
     SetHtml("content-body", S.runTemplate("jobdetail" :: Nil).get)
   }
 
@@ -225,25 +231,25 @@ class JobDetail {
     reRender
   }
 
-//  def getTable = {
-//    if (CurrentJob.get.isDefined) {
-//      CurrentJob.get.get.urls.map {
-//        u => <tr id={"job_urls_id_" + u.id}>
-//          <td>
-//            <span>
-//              {u.url}
-//            </span>
-//          </td>
-//
-//          <td>
-//            {a(() => deleteUrl(u), <button class="btn btn-default">Delete</button>)}
-//          </td>
-//        </tr>
-//      }
-//    }
-//    else
-//      <span>No job Selected</span>
-//  }
+  //  def getTable = {
+  //    if (CurrentJob.get.isDefined) {
+  //      CurrentJob.get.get.urls.map {
+  //        u => <tr id={"job_urls_id_" + u.id}>
+  //          <td>
+  //            <span>
+  //              {u.url}
+  //            </span>
+  //          </td>
+  //
+  //          <td>
+  //            {a(() => deleteUrl(u), <button class="btn btn-default">Delete</button>)}
+  //          </td>
+  //        </tr>
+  //      }
+  //    }
+  //    else
+  //      <span>No job Selected</span>
+  //  }
 
   def addUrl = {
     Url.create.url(new_url).pid(CurrentJob.get.get).save
@@ -280,39 +286,44 @@ class JobDetail {
     </table>
   }
 
+
   def saveScheduler() = {
+    checkInterval
     if (startDateValid && endDateValid && times.filter(t => t.validHit == false || t.validTime == false).size == 0) {
       if (startDate.isBefore(endDate) || startDate.isEqual(endDate)) {
-        val now = DateTime.now()
-        var interval = new Interval(startDate, endDate)
-        println(interval)
-        val day = 0
-        var days: List[DateTime] = List.empty[DateTime]
-        var startD = startDate
-
-
-        while (!startD.isEqual(endDate)) {
-          days = startD :: days
-          startD = startD.plusDays(1)
+        if (!overlapsError) {
+          val scheduler = Scheduler.create.from(startDate.toDate).to(endDate.toDate).job(CurrentJob.get.get).saveMe()
+          times.map(line => SchedulerTime.create.time(line.time.toDate).hit(line.hit).scheduler(scheduler).save())
+          reRender
         }
-        days = startD :: days
-
-
-        times.map {
-          t =>
-            days.map {
-              d =>
-                Scheduler.create.time(d.plusHours(t.time.getHourOfDay).plusMinutes(t.time.getMinuteOfHour).toDate).hit(t.hit).job(CurrentJob.get.get).save()
-            }
-        }
-        reRender
+        else
+          Alert("OverlapsError")
       }
       else
         Alert("the Start date must be less than or equal to the End date")
     }
     else
       Alert("Not Valid")
+  }
 
+  def checkInterval = {
+    val interval = new Interval(startDate, endDate)
+    val overlaps: Int = CurrentJob.get.get.scheduler.map {
+      s => {
+        val i = new Interval(new DateTime(s.from.get), new DateTime(s.to.get).plusDays(1))
+          val test = i.overlaps(interval)
+        test
+      }
+    }.count(res => res)
+    if (overlaps > 0) {
+      overlapsError = true
+      SetHtml("error_start_date", <span>"Ovelaps Error"</span>)
+    }
+    else {
+      overlapsError = false
+      SetHtml("error_start_date", <span>"OK"</span>) &
+      SetHtml("error_end_date", <span>"OK"</span>)
+    }
 
   }
 
@@ -330,7 +341,10 @@ class JobDetail {
             try {
               startDate = DateTime.parse(start, dateParser)
               startDateValid = true
-              SetHtml("error_start_date", <span>"Ok"</span>)
+              if (endDateValid)
+                checkInterval
+              else
+                SetHtml("error_start_date", <span>"Ok"</span>)
             }
             catch {
               case _: Throwable => {
@@ -350,7 +364,10 @@ class JobDetail {
             try {
               endDate = DateTime.parse(end, dateParser)
               endDateValid = true
-              SetHtml("error_end_date", <span>"Ok"</span>)
+              if (startDateValid)
+                checkInterval
+              else
+                SetHtml("error_end_date", <span>"Ok"</span>)
             }
             catch {
               case _: Throwable => {
@@ -413,47 +430,62 @@ class JobDetail {
     reRender
   }
 
+  def deleteSchedulerTime(s: SchedulerTime) = {
+    s.delete_!
+    reRender
+  }
+
   def renderScheduler: NodeSeq = {
     <h3>Scheduler</h3>
       <span>
         {a(() => deleteAllScheduler(), <button class="btn btn-default">Delete All</button>)}
       </span>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              Time
-            </th>
-            <th>
-              hits
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {CurrentJob.get.get.scheduler.toList.flatMap {
-          f =>
-            <tr>
-              <td>
-                {f.time}
-              </td>
-              <td>
-                {f.hit}
-              </td>
-              <td>
-                {a(() => deleteScheduler(f), <button class="btn btn-default">Delete</button>)}
-              </td>
-            </tr>
-        }}
-        </tbody>
-      </table>
+      <div>
+        {CurrentJob.get.get.scheduler.toList.flatMap {
+        s =>
+          <span>From
+            {s.from}
+            to
+            {s.to}{a(() => deleteScheduler(s), <button class="btn btn-default">Delete</button>)}
+          </span>
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    Time
+                  </th>
+                  <th>
+                    hits
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {s.times.toList.flatMap {
+                t =>
+                  <tr>
+                    <td>
+                      {t.time}
+                    </td>
+                    <td>
+                      {t.hit}
+                    </td>
+                    <td>
+                      {a(() => deleteSchedulerTime(t), <button class="btn btn-default">Delete</button>)}
+                    </td>
+                  </tr>
+              }}
+              </tbody>
+            </table>
+      }}
+      </div>
   }
 
 
   def render = {
-//    "#jobdetail-urls-list-table" #> getTable &
-      "#JobDetailManager *" #> {
-        renderHead ++ renderFunction ++ renderSchedulerForm ++ renderScheduler ++ renderUrls
-      }
+    //    "#jobdetail-urls-list-table" #> getTable &
+    "#JobDetailManager *" #> {
+      renderHead ++ renderFunction ++ renderSchedulerForm ++ renderScheduler ++ renderUrls
+    }
   }
 
 }
