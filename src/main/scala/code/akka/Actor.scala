@@ -132,9 +132,12 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
   def receive: Actor.Receive = {
 
     case r: RunJob =>
+      if (state.isDefined)
+        state = Some(state.get.copy(currentHits = total))
+
       SchedulerUtils.schedulerManager(job, state) match {
         case Some(state) => {
-          if(!this.state.isDefined)
+          if (!this.state.isDefined)
             this.state = Some(state)
           if (state.waitTime.isDefined) {
             newLog("Target complete. Wait " + state.waitTime.get + " seconds")
@@ -143,23 +146,32 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
           else {
             var delay: Double = 0
             if (total > 0) {
+              var del:Double = 0
               val toGo = new Period(SchedulerUtils.getNow, state.nextDateTime).toStandardSeconds.getSeconds
-              val unit = toGo / (hitsTarget - (total / actorNumber)).toDouble
-              val del = unit - avgTime
+              if ((state.targetHits - (state.currentHits / actorNumber)) >0)
+              {
+                val unit = toGo / (state.targetHits - (state.currentHits / actorNumber)).toDouble
+                del = unit - avgTime
+              }
+
               delay = if (del > 0) del else 0
             }
+
             Range(0, actorNumber - activeActor).par.map {
               i =>
+//                println("inizializzo i range")
                 val userA = userAgent(Random.nextInt(userAgent.length))
                 val proxyR = proxy(Random.nextInt(proxy.length))
                 var urlsR: List[Url] = List.empty[Url]
-                val urlsNum = List(15,Random.nextInt(urls.size)).min
+                val urlsNum = List(5, Random.nextInt(urls.size)).min
+                println("urlsnum "+ urlsNum + delay)
                 for (i <- 0 to urlsNum)
                   urlsR = urls(Random.nextInt((urls.size))) :: urlsR
                 val cp = CasperParam(userA, urlsR, Some(proxyR))
                 activeActor += 1
                 ActorManager.system.scheduler.scheduleOnce(delay seconds, runners, cp)
             }
+//            println("schedulo il prossimo ")
             ActorManager.system.scheduler.scheduleOnce(avgTime + 1 seconds, self, RunJob())
           }
 
@@ -170,8 +182,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
 
     case cr: CasperReturn =>
       total += cr.succes
-      if (state.isDefined)
-        state = Some(state.get.copy(currentHits = total))
+
       globalTotal += cr.succes
       globalTotalPages += cr.viewedPages
       currentTotalPages += cr.viewedPages
@@ -206,9 +217,9 @@ class RunCasper extends Actor with akka.actor.ActorLogging {
       var command = ""
       var result = ""
       val temp = java.io.File.createTempFile("casperjs", "script")
-      val bw = new BufferedWriter(new FileWriter(temp));
-      bw.write(SpiderUtil.generateString(cp));
-      bw.close();
+      val bw = new BufferedWriter(new FileWriter(temp))
+      bw.write(SpiderUtil.generateString(cp))
+      bw.close()
       if (cp.proxy.isDefined)
         command = "casperjs --proxy=" + cp.proxy.get.proxy.get + " " + temp.getPath
       else
@@ -223,11 +234,12 @@ class RunCasper extends Actor with akka.actor.ActorLogging {
           line = subProcessInputReader.readLine()
         }
         process.destroy()
+//        println("ucciso il processo ")
 
 
       }
       catch {
-        case e: InterruptedException =>
+        case e: InterruptedException =>  println("timeout ")
       }
       try {
         temp.delete()
