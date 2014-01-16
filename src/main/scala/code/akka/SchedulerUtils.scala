@@ -65,6 +65,7 @@ object SchedulerUtils {
     if (scheduler.isDefined) {
       val times = getTimes(scheduler.get)
       if (times._1.isDefined) {
+
         val next = if (times._2.isDefined) times._2.get.getTime else null
         if (!state.isDefined) {
           if (next == null)
@@ -92,8 +93,12 @@ object SchedulerUtils {
         }
       }
       else
+      {
+        println("time not defined")
         return Some(waitOneDay)
+      }
     }
+    println("scheduler not defined")
     None
   }
 }
