@@ -153,8 +153,9 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
                 val userA = userAgent(Random.nextInt(userAgent.length))
                 val proxyR = proxy(Random.nextInt(proxy.length))
                 var urlsR: List[Url] = List.empty[Url]
-                for (i <- 0 to Random.nextInt(urls.size))
-                  urlsR = urls(Random.nextInt(urls.size)) :: urlsR
+                val urlsNum = List(15,Random.nextInt(urls.size)).min
+                for (i <- 0 to urlsNum)
+                  urlsR = urls(Random.nextInt((urls.size))) :: urlsR
                 val cp = CasperParam(userA, urlsR, Some(proxyR))
                 activeActor += 1
                 ActorManager.system.scheduler.scheduleOnce(delay seconds, runners, cp)
