@@ -98,7 +98,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
   var globalTotal = 0
   var globalTotalPages = 0
 
-  var actorNumber = 20
+  var actorNumber = 50
   var total: Int = 0
   var currentTotalPages: Int = 0
   val runners = context.actorOf(Props[RunCasper].withRouter(RoundRobinRouter(nrOfInstances = actorNumber)).withDispatcher("my-dispatcher"), name = "runners")
@@ -154,7 +154,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
                 del = unit - avgTime
               }
 
-              delay = if (del > 0) del else 0
+              delay = if (del > 0) del else 5
             }
 
             Range(0, actorNumber - activeActor).par.map {
@@ -163,8 +163,9 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
                 val userA = userAgent(Random.nextInt(userAgent.length))
                 val proxyR = proxy(Random.nextInt(proxy.length))
                 var urlsR: List[Url] = List.empty[Url]
-                val urlsNum = List(5, Random.nextInt(urls.size)).min
-                println("urlsnum "+ urlsNum + delay)
+                var urlsNum = List(10, Random.nextInt(urls.size)).min
+              urlsNum = if (urlsNum >0) urlsNum else 1
+                println("urlsnum "+ urlsNum +" delay: "+ delay)
                 for (i <- 0 to urlsNum)
                   urlsR = urls(Random.nextInt((urls.size))) :: urlsR
                 val cp = CasperParam(userA, urlsR, Some(proxyR))
