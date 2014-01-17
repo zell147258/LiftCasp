@@ -77,14 +77,14 @@ object SchedulerUtils {
           return Some(SchedulerState(currentTime = times._1.get.getTime, nextTime = Some(next), targetHits = times._1.get.hit.get, currentHits = 0))
         }
         else if (state.get.currentTime != times._1.get.getTime) {
-          val today = new DateTime().withHourOfDay(0).withMinuteOfHour(0).withSecondOfMinute(0).toDate
-          val notAlreadyLogged = JobLog.findAll(By_>(JobLog.timeStamp, today), Like(JobLog.message, "Prev set to: " + df.format(times._1.get.getTime))).isEmpty
-          if (notAlreadyLogged) {
-            if (next == null)
-              JobLog.create.job(job).message("Prev set to: " + df.format(times._1.get.getTime) + ". Target hit: " + times._1.get.hit.get).timeStamp(new Date).save()
-            else
-              JobLog.create.job(job).message("Prev set to: " + times._1.get.getTime + ".Next is:" + next + ". Target hit: " + times._1.get.hit.get).timeStamp(new Date).save()
-          }
+//          val today = new DateTime().withHourOfDay(0).withMinuteOfHour(0).withSecondOfMinute(0).toDate
+//          val notAlreadyLogged = JobLog.findAll(By_>(JobLog.timeStamp, today), Like(JobLog.message, "Prev set to: " + df.format(times._1.get.getTime))).isEmpty
+//          if (notAlreadyLogged) {
+//            if (next == null)
+//              JobLog.create.job(job).message("Prev set to: " + df.format(times._1.get.getTime) + ". Target hit: " + times._1.get.hit.get).timeStamp(new Date).save()
+//            else
+//              JobLog.create.job(job).message("Prev set to: " + times._1.get.getTime + ".Next is:" + next + ". Target hit: " + times._1.get.hit.get).timeStamp(new Date).save()
+//          }
           return Some(SchedulerState(currentTime = times._1.get.getTime, nextTime = Some(next), targetHits = times._1.get.hit.get, currentHits = 0))
         }
         else {
