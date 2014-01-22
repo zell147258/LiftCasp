@@ -42,7 +42,7 @@ object SchedulerUtils {
       return (None, None)
     else {
       val afterNow: List[SchedulerTime] = sTimes.filter(_.getTime.after(now))
-      val timesFiltered = sTimes.filterNot(t => afterNow.contains(t)).last :: afterNow
+      val timesFiltered = sTimes.filterNot(t => afterNow.contains(t))
       val times = if (!timesFiltered.isEmpty)  timesFiltered.last :: afterNow else afterNow
       if (afterNow.isEmpty)
         return (Some(times.head), None)
