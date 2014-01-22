@@ -163,7 +163,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
                 val userA = userAgent(Random.nextInt(userAgent.length))
                 val proxyR = proxy(Random.nextInt(proxy.length))
                 var urlsR: List[Url] = List.empty[Url]
-                var urlsNum = List(10, Random.nextInt(urls.size)).min
+                var urlsNum = Random.nextInt(10)
               urlsNum = if (urlsNum >0) urlsNum else 1
 //                println("urlsnum "+ urlsNum +" delay: "+ delay)
                 for (i <- 0 to urlsNum)
