@@ -98,7 +98,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
   var globalTotal = 0
   var globalTotalPages = 0
 
-  var actorNumber = 50
+  var actorNumber = 30
   var total: Int = 0
   var currentTotalPages: Int = 0
   val runners = context.actorOf(Props[RunCasper].withRouter(RoundRobinRouter(nrOfInstances = actorNumber)).withDispatcher("my-dispatcher"), name = "runners")
