@@ -98,7 +98,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
   var globalTotal = 0
   var globalTotalPages = 0
 
-  var actorNumber = 30
+  var actorNumber = 25
   var total: Int = 0
   var currentTotalPages: Int = 0
   val runners = context.actorOf(Props[RunCasper].withRouter(RoundRobinRouter(nrOfInstances = actorNumber)).withDispatcher("my-dispatcher"), name = "runners")
@@ -165,7 +165,7 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
                 var urlsR: List[Url] = List.empty[Url]
                 var urlsNum = List(10, Random.nextInt(urls.size)).min
               urlsNum = if (urlsNum >0) urlsNum else 1
-                println("urlsnum "+ urlsNum +" delay: "+ delay)
+//                println("urlsnum "+ urlsNum +" delay: "+ delay)
                 for (i <- 0 to urlsNum)
                   urlsR = urls(Random.nextInt((urls.size))) :: urlsR
                 val cp = CasperParam(userA, urlsR, Some(proxyR))
@@ -226,7 +226,7 @@ class RunCasper extends Actor with akka.actor.ActorLogging {
       else
         command = "casperjs " + temp.getPath
       try {
-        val process = ProcessUtils(command, 60).run()
+        val process = ProcessUtils(command, 40).run()
 
         val subProcessInputReader = new BufferedReader(new InputStreamReader(process.getInputStream()))
         var line = subProcessInputReader.readLine()
