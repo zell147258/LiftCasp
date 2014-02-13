@@ -7,10 +7,10 @@
 		revision="0.0.3"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20140107080521"/>
+		date="20140203145859"/>
 	<dependencies>
 		<module organisation="org.specs2" name="specs2_2.10">
-			<revision name="1.14" status="release" pubdate="20130220011028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
+			<revision name="1.14" status="release" pubdate="20130220011028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="74">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="3590" time="0" location="/Users/ivan/.ivy2/cache/org.specs2/specs2_2.10/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/staging/org/specs2/specs2_2.10/1.14/specs2_2.10-1.14.pom"/>
 				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="0.0.3"/>
@@ -22,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2-scalaz-concurrent_2.10">
-			<revision name="7.0.0" status="release" pubdate="20130220002434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
+			<revision name="7.0.0" status="release" pubdate="20130220002434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="76">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2838" time="0" location="/Users/ivan/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/staging/org/specs2/specs2-scalaz-concurrent_2.10/7.0.0/specs2-scalaz-concurrent_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="1.14"/>
@@ -34,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="scalaz-effect_2.10">
-			<revision name="7.0.0" status="release" pubdate="20121220120525" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
+			<revision name="7.0.0" status="release" pubdate="20121220120525" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="77">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/ivan/.ivy2/cache/org.specs2/scalaz-effect_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="specs2-scalaz-concurrent_2.10" conf="compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="7.0.0"/>
@@ -46,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="scalaz-core_2.10">
-			<revision name="7.0.0" status="release" pubdate="20121220120704" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="45">
+			<revision name="7.0.0" status="release" pubdate="20121220120704" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="78">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2512" time="0" location="/Users/ivan/.ivy2/cache/org.specs2/scalaz-core_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="scalaz-effect_2.10" conf="compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="7.0.0"/>
@@ -58,7 +58,7 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2-scalaz-core_2.10">
-			<revision name="7.0.0" status="release" pubdate="20130220002304" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="42">
+			<revision name="7.0.0" status="release" pubdate="20130220002304" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="75">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2533" time="0" location="/Users/ivan/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/staging/org/specs2/specs2-scalaz-core_2.10/7.0.0/specs2-scalaz-core_2.10-7.0.0.pom"/>
 				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="1.14"/>
@@ -71,7 +71,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-webapp">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="64">
 				<metadata-artifact status="no" details="" size="8516" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.7.v20120910/jetty-webapp-8.1.7.v20120910.pom"/>
 				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="0.0.3"/>
 				<artifacts>
@@ -82,7 +82,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-servlet">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="67">
 				<metadata-artifact status="no" details="" size="8345" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.7.v20120910/jetty-servlet-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -93,7 +93,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-security">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210833" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210833" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="68">
 				<metadata-artifact status="no" details="" size="8242" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.1.7.v20120910/jetty-security-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -104,7 +104,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-server">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210755" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210755" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="69">
 				<metadata-artifact status="no" details="" size="8834" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.7.v20120910/jetty-server-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -115,7 +115,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-http">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210402" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210402" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="72">
 				<metadata-artifact status="no" details="" size="8292" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.7.v20120910/jetty-http-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -126,7 +126,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-io">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="73">
 				<metadata-artifact status="no" details="" size="8155" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.7.v20120910/jetty-io-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -137,7 +137,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-continuation">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="71">
 				<metadata-artifact status="no" details="" size="8247" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.7.v20120910/jetty-continuation-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -148,7 +148,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-xml">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211248" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910211248" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="65">
 				<metadata-artifact status="no" details="" size="8166" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.1.7.v20120910/jetty-xml-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -159,7 +159,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-util">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210238" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120910210238" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="66">
 				<metadata-artifact status="no" details="" size="8520" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.7.v20120910/jetty-util-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
@@ -171,13 +171,420 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
-			<revision name="3.0.0.v201112011016" status="release" pubdate="20111207204915" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+			<revision name="3.0.0.v201112011016" status="release" pubdate="20111207204915" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="70">
 				<metadata-artifact status="no" details="" size="3070" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty.orbit/javax.servlet/ivy-3.0.0.v201112011016.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="8.1.7.v20120910"/>
 				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="0.0.3"/>
 				<artifacts>
 					<artifact name="javax.servlet" type="jar" ext="jar" status="no" details="" size="200387" time="0" location="/Users/ivan/.ivy2/cache/org.eclipse.jetty.orbit/javax.servlet/jars/javax.servlet-3.0.0.v201112011016.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mozilla" name="rhino">
+			<revision name="1.7R4" status="release" pubdate="20120620120507" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://developer.mozilla.org/en/Rhino" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="63">
+				<license name="Mozilla Public License, Version 2.0" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
+				<metadata-artifact status="no" details="" size="2897" time="0" location="/Users/ivan/.ivy2/cache/org.mozilla/rhino/ivy-1.7R4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R4/rhino-1.7R4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.7R4" rev-constraint-default="1.7R4" rev-constraint-dynamic="1.7R4" callerrev="0.0.3"/>
+				<artifacts>
+					<artifact name="rhino" type="jar" ext="jar" status="no" details="" size="1134765" time="0" location="/Users/ivan/.ivy2/cache/org.mozilla/rhino/jars/rhino-1.7R4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.7.2" status="release" pubdate="20130128013049" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsoup.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="62">
+				<license name="The MIT License" url="http://jsoup.com/license"/>
+				<metadata-artifact status="no" details="" size="2874" time="0" location="/Users/ivan/.ivy2/cache/org.jsoup/jsoup/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.0.3"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="293671" time="0" location="/Users/ivan/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.stackmob" name="newman_2.10">
+			<revision name="1.3.5" status="release" pubdate="20131205220907" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/stackmob/newman" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4450" time="0" location="/Users/ivan/.ivy2/cache/com.stackmob/newman_2.10/ivy-1.3.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/stackmob/newman_2.10/1.3.5/newman_2.10-1.3.5.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.3.5" rev-constraint-default="1.3.5" rev-constraint-dynamic="1.3.5" callerrev="0.0.3"/>
+				<artifacts>
+					<artifact name="newman_2.10" type="jar" ext="jar" status="no" details="" size="511142" time="0" location="/Users/ivan/.ivy2/cache/com.stackmob/newman_2.10/jars/newman_2.10-1.3.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/stackmob/newman_2.10/1.3.5/newman_2.10-1.3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json-scalaz7_2.10">
+			<revision name="2.5.1" status="release" pubdate="20130626040532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="60">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3071" time="0" location="/Users/ivan/.ivy2/cache/net.liftweb/lift-json-scalaz7_2.10/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-json-scalaz7_2.10/2.5.1/lift-json-scalaz7_2.10-2.5.1.pom"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="1.3.5"/>
+				<artifacts>
+					<artifact name="lift-json-scalaz7_2.10" type="jar" ext="jar" status="no" details="" size="110044" time="0" location="/Users/ivan/.ivy2/cache/net.liftweb/lift-json-scalaz7_2.10/jars/lift-json-scalaz7_2.10-2.5.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-json-scalaz7_2.10/2.5.1/lift-json-scalaz7_2.10-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.10">
+			<revision name="7.0.0" status="release" pubdate="20130421175340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="61">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2514" time="0" location="/Users/ivan/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom"/>
+				<caller organisation="net.liftweb" name="lift-json-scalaz7_2.10" conf="compile, runtime" rev="7.0.0" rev-constraint-default="7.0.0" rev-constraint-dynamic="7.0.0" callerrev="2.5.1"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.10" type="bundle" ext="jar" status="no" details="" size="8621005" time="0" location="/Users/ivan/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.0.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http_2.10">
+			<revision name="6.5.0" status="release" pubdate="20130614090834" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3762" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/finagle-http_2.10/ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/finagle-http_2.10/6.5.0/finagle-http_2.10-6.5.0.pom"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="1.3.5"/>
+				<artifacts>
+					<artifact name="finagle-http_2.10" type="jar" ext="jar" status="no" details="" size="482188" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/finagle-http_2.10/jars/finagle-http_2.10-6.5.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/finagle-http_2.10/6.5.0/finagle-http_2.10-6.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-codec_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613071027" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3804" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-codec_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-codec_2.10/6.3.6/util-codec_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-http_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="util-codec_2.10" type="jar" ext="jar" status="no" details="" size="7346" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-codec_2.10/jars/util-codec_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-codec_2.10/6.3.6/util-codec_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-core_2.10">
+			<revision name="6.5.0" status="release" pubdate="20130614090507" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4295" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/finagle-core_2.10/ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/finagle-core_2.10/6.5.0/finagle-core_2.10-6.5.0.pom"/>
+				<caller organisation="com.twitter" name="finagle-http_2.10" conf="compile, runtime" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="finagle-core_2.10" type="jar" ext="jar" status="no" details="" size="1620348" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/finagle-core_2.10/jars/finagle-core_2.10-6.5.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/finagle-core_2.10/6.5.0/finagle-core_2.10-6.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-jvm_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613071015" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="56">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3779" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-jvm_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-jvm_2.10/6.3.6/util-jvm_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="util-jvm_2.10" type="jar" ext="jar" status="no" details="" size="166176" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-jvm_2.10/jars/util-jvm_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-jvm_2.10/6.3.6/util-jvm_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-logging_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613071033" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3934" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-logging_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-logging_2.10/6.3.6/util-logging_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-http_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="util-logging_2.10" type="jar" ext="jar" status="no" details="" size="203375" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-logging_2.10/jars/util-logging_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-logging_2.10/6.3.6/util-logging_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-hashing_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613071021" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3787" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-hashing_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-hashing_2.10/6.3.6/util-hashing_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="util-hashing_2.10" type="jar" ext="jar" status="no" details="" size="66494" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-hashing_2.10/jars/util-hashing_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-hashing_2.10/6.3.6/util-hashing_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-collection_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613071010" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="51">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3968" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-collection_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-collection_2.10/6.3.6/util-collection_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="util-collection_2.10" type="jar" ext="jar" status="no" details="" size="51683" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-collection_2.10/jars/util-collection_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-collection_2.10/6.3.6/util-collection_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415030924" resolver="public" artresolver="public" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="54">
+				<metadata-artifact status="no" details="" size="4584" time="0" location="/Users/ivan/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="com.twitter" name="util-collection_2.10" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="6.3.6"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/Users/ivan/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="11.0.2" status="release" pubdate="20120222150217" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="52">
+				<metadata-artifact status="no" details="" size="3835" time="0" location="/Users/ivan/.ivy2/cache/com.google.guava/guava/ivy-11.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.cloudbees.com/content/groups/public/com/google/guava/guava/11.0.2/guava-11.0.2.pom"/>
+				<caller organisation="com.twitter" name="util-collection_2.10" conf="compile, runtime" rev="11.0.2" rev-constraint-default="11.0.2" rev-constraint-dynamic="11.0.2" callerrev="6.3.6"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="1648200" time="0" location="/Users/ivan/.ivy2/cache/com.google.guava/guava/jars/guava-11.0.2.jar">
+						<origin-location is-local="false" location="http://repo.cloudbees.com/content/groups/public/com/google/guava/guava/11.0.2/guava-11.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="1.3.9" status="release" pubdate="20090825002822" resolver="public" artresolver="public" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2393" time="0" location="/Users/ivan/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-1.3.9.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="11.0.2"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="/Users/ivan/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-app_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613071005" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3661" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-app_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/twitter/util-app_2.10/6.3.6/util-app_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<caller organisation="com.twitter" name="util-logging_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<artifacts>
+					<artifact name="util-app_2.10" type="jar" ext="jar" status="no" details="" size="85517" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-app_2.10/jars/util-app_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/twitter/util-app_2.10/6.3.6/util-app_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.10">
+			<revision name="6.3.6" status="release" pubdate="20130613051031" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3644" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-core_2.10/ivy-6.3.6.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/staging/com/twitter/util-core_2.10/6.3.6/util-core_2.10-6.3.6.pom"/>
+				<caller organisation="com.twitter" name="util-codec_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-hashing_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.5.0"/>
+				<caller organisation="com.twitter" name="util-logging_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-jvm_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-app_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-collection_2.10" conf="compile, runtime" rev="6.3.6" rev-constraint-default="6.3.6" rev-constraint-dynamic="6.3.6" callerrev="6.3.6"/>
+				<artifacts>
+					<artifact name="util-core_2.10" type="jar" ext="jar" status="no" details="" size="794017" time="0" location="/Users/ivan/.ivy2/cache/com.twitter/util-core_2.10/jars/util-core_2.10-6.3.6.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/staging/com/twitter/util-core_2.10/6.3.6/util-core_2.10-6.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.5.12.Final" status="release" pubdate="20130305004559" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="48">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6424" time="0" location="/Users/ivan/.ivy2/cache/io.netty/netty/ivy-3.5.12.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.5.12.Final/netty-3.5.12.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="3.5.12.Final" rev-constraint-default="3.5.12.Final" rev-constraint-dynamic="3.5.12.Final" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1132988" time="0" location="/Users/ivan/.ivy2/cache/io.netty/netty/bundles/netty-3.5.12.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.5.12.Final/netty-3.5.12.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-caching">
+			<revision name="1.2.0" status="release" pubdate="20131213153123" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3155" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-caching/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/spray/spray-caching/1.2.0/spray-caching-1.2.0.pom"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.3.5"/>
+				<artifacts>
+					<artifact name="spray-caching" type="bundle" ext="jar" status="no" details="" size="23744" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-caching/bundles/spray-caching-1.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/spray/spray-caching/1.2.0/spray-caching-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.4" status="release" pubdate="20130805031040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5023" time="0" location="/Users/ivan/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.pom"/>
+				<caller organisation="io.spray" name="spray-caching" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="116575" time="0" location="/Users/ivan/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/concurrentlinkedhashmap-lru-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110116232147" resolver="public" artresolver="public" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="59">
+				<metadata-artifact status="no" details="" size="6390" time="0" location="/Users/ivan/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="com.twitter" name="finagle-http_2.10" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="6.5.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/Users/ivan/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-client">
+			<revision name="1.2.0" status="release" pubdate="20131213153153" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3494" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-client/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-client/1.2.0/spray-client-1.2.0.pom"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.3.5"/>
+				<artifacts>
+					<artifact name="spray-client" type="bundle" ext="jar" status="no" details="" size="44966" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-client/bundles/spray-client-1.2.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-client/1.2.0/spray-client-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-httpx">
+			<revision name="1.2.0" status="release" pubdate="20131213153101" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4105" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-httpx/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-httpx/1.2.0/spray-httpx-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-httpx" type="bundle" ext="jar" status="no" details="" size="456464" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-httpx/bundles/spray-httpx-1.2.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-httpx/1.2.0/spray-httpx-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.mimepull" name="mimepull">
+			<revision name="1.9.3" status="release" pubdate="20130419114423" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3786" time="0" location="/Users/ivan/.ivy2/cache/org.jvnet.mimepull/mimepull/ivy-1.9.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.3/mimepull-1.9.3.pom"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="mimepull" type="jar" ext="jar" status="no" details="" size="62135" time="0" location="/Users/ivan/.ivy2/cache/org.jvnet.mimepull/mimepull/jars/mimepull-1.9.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.3/mimepull-1.9.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can">
+			<revision name="1.2.0" status="release" pubdate="20131213152854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3355" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-can/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-can/1.2.0/spray-can-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-can" type="bundle" ext="jar" status="no" details="" size="711450" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-can/bundles/spray-can-1.2.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-can/1.2.0/spray-can-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io">
+			<revision name="1.2.0" status="release" pubdate="20131213153217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3134" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-io/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-io/1.2.0/spray-io-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-io" type="bundle" ext="jar" status="no" details="" size="193565" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-io/bundles/spray-io-1.2.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-io/1.2.0/spray-io-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http">
+			<revision name="1.2.0" status="release" pubdate="20131213153038" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3119" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-http/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-http/1.2.0/spray-http-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-http" type="bundle" ext="jar" status="no" details="" size="1282343" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-http/bundles/spray-http-1.2.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-http/1.2.0/spray-http-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.10">
+			<revision name="1.1.6" status="release" pubdate="20130826125413" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2946" time="0" location="/Users/ivan/.ivy2/cache/org.parboiled/parboiled-scala_2.10/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.10/1.1.6/parboiled-scala_2.10-1.1.6.pom"/>
+				<caller organisation="io.spray" name="spray-http" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.10" type="bundle" ext="jar" status="no" details="" size="237780" time="0" location="/Users/ivan/.ivy2/cache/org.parboiled/parboiled-scala_2.10/bundles/parboiled-scala_2.10-1.1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.10/1.1.6/parboiled-scala_2.10-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.6" status="release" pubdate="20130822173221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="41">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2654" time="0" location="/Users/ivan/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.1.6"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="bundle" ext="jar" status="no" details="" size="187091" time="0" location="/Users/ivan/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util">
+			<revision name="1.2.0" status="release" pubdate="20131213152915" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3111" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-util/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-util/1.2.0/spray-util-1.2.0.pom"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-http" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-caching" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="spray-util" type="bundle" ext="jar" status="no" details="" size="128707" time="0" location="/Users/ivan/.ivy2/cache/io.spray/spray-util/bundles/spray-util-1.2.0.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/spray/spray-util/1.2.0/spray-util-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.2.5" status="release" pubdate="20130419182959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+				<metadata-artifact status="no" details="" size="9149" time="0" location="/Users/ivan/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.2.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.pom"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="4.2.5" rev-constraint-default="4.2.5" rev-constraint-dynamic="4.2.5" callerrev="1.3.5"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="433368" time="0" location="/Users/ivan/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.2.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20130506133635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+				<metadata-artifact status="no" details="" size="3941" time="0" location="/Users/ivan/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.2.5"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="/Users/ivan/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.2.5" status="release" pubdate="20130729171428" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+				<metadata-artifact status="no" details="" size="7580" time="0" location="/Users/ivan/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.2.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.pom"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="4.2.5" rev-constraint-default="4.2.5" rev-constraint-dynamic="4.2.5" callerrev="1.3.5"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="227708" time="0" location="/Users/ivan/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -212,6 +619,7 @@
 				<metadata-artifact status="no" details="" size="2638" time="0" location="/Users/ivan/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
 				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="2.2.3"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.3.5"/>
 				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.0.3"/>
 				<artifacts>
 					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2669443" time="0" location="/Users/ivan/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.3.jar">
@@ -408,6 +816,7 @@
 			<revision name="1.6" status="release" pubdate="20130506134714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
 				<metadata-artifact status="no" details="" size="7555" time="0" location="/Users/ivan/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.6-M2"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.2.5"/>
 				<artifacts>
 					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/Users/ivan/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
@@ -455,11 +864,18 @@
 			<revision name="2.6-M2" status="release" pubdate="20131108033604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3043" time="0" location="/Users/ivan/.ivy2/cache/net.liftweb/lift-json_2.10/ivy-2.6-M2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/staging/net/liftweb/lift-json_2.10/2.6-M2/lift-json_2.10-2.6-M2.pom"/>
+				<caller organisation="net.liftweb" name="lift-json-scalaz7_2.10" conf="compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="2.5.1"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.6-M2" rev-constraint-default="2.6-M2" rev-constraint-dynamic="2.6-M2" callerrev="2.6-M2"/>
 				<artifacts>
 					<artifact name="lift-json_2.10" type="jar" ext="jar" status="no" details="" size="493763" time="0" location="/Users/ivan/.ivy2/cache/net.liftweb/lift-json_2.10/jars/lift-json_2.10-2.6-M2.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/staging/net/liftweb/lift-json_2.10/2.6-M2/lift-json_2.10-2.6-M2.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.5.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.6-M2"/>
+				<caller organisation="net.liftweb" name="lift-json-scalaz7_2.10" conf="compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="2.5.1"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -555,26 +971,46 @@
 			<revision name="2.10.0" status="release" pubdate="20121220082916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
 				<metadata-artifact status="no" details="" size="2392" time="0" location="/Users/ivan/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="7.0.0"/>
+				<caller organisation="net.liftweb" name="lift-json-scalaz7_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5.1"/>
 				<caller organisation="org.specs2" name="specs2-scalaz-core_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="7.0.0"/>
+				<caller organisation="com.twitter" name="util-codec_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-hashing_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
-				<caller organisation="net.liftweb" name="lift-markdown_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
-				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
-				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.0.3"/>
+				<caller organisation="com.twitter" name="util-logging_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
 				<caller organisation="net.liftweb" name="lift-proto_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
-				<caller organisation="org.specs2" name="scalaz-effect_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="7.0.0"/>
-				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="1.1.6"/>
 				<caller organisation="net.liftweb" name="lift-common_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
-				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
 				<caller organisation="net.liftweb" name="lift-actor_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
-				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="io.spray" name="spray-client" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="com.stackmob" name="newman_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="1.3.5"/>
+				<caller organisation="io.spray" name="spray-httpx" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
 				<caller organisation="org.specs2" name="scalaz-core_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="7.0.0"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="io.spray" name="spray-util" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
 				<caller organisation="org.specs2" name="specs2-scalaz-concurrent_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="7.0.0"/>
 				<caller organisation="net.liftweb" name="lift-json_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
-				<caller organisation="net.liftmodules" name="lift-jquery-module_2.6_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5"/>
-				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<caller organisation="net.liftweb" name="lift-mapper_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<caller organisation="net.liftmodules" name="lift-jquery-module_2.6_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5"/>
+				<caller organisation="io.spray" name="spray-caching" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="net.liftweb" name="lift-markdown_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="net.liftweb" name="lift-2.6-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.0.3"/>
+				<caller organisation="org.specs2" name="scalaz-effect_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="7.0.0"/>
+				<caller organisation="com.twitter" name="util-app_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
+				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.6-M2"/>
+				<caller organisation="io.spray" name="spray-can" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
+				<caller organisation="com.twitter" name="finagle-http_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.5.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.twitter" name="finagle-core_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.5.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="com.twitter" name="util-core_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-jvm_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
+				<caller organisation="com.twitter" name="util-collection_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="6.3.6"/>
+				<caller organisation="io.spray" name="spray-http" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.3" callerrev="1.2.0"/>
 				<artifacts>
 				</artifacts>
 			</revision>

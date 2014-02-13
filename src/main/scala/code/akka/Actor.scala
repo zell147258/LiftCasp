@@ -17,6 +17,8 @@ import scala.Some
 import akka.actor.OneForOneStrategy
 import code.utils.ProcessUtils
 import java.text.SimpleDateFormat
+import org.jsoup.Jsoup
+import scala.collection.JavaConversions._
 
 
 /**
@@ -34,6 +36,8 @@ case class StartCasper()
 case class StopJobById(job: Job)
 
 case class RunJob()
+
+case class RetriveProxyAction()
 
 object SpiderUtil {
 
@@ -61,6 +65,10 @@ class CasperSpider() extends Actor with akka.actor.ActorLogging {
 
   context.setReceiveTimeout(1 minute)
   var managers: Map[String, ActorRef] = Map.empty[String, ActorRef]
+  lazy val proxy = context.actorOf(Props(classOf[RetriveProxy]), name = "proxy")
+  proxy.tell(RetriveProxyAction(),self)
+
+
 
 
   def receive = {
@@ -75,6 +83,10 @@ class CasperSpider() extends Actor with akka.actor.ActorLogging {
     case st: StopJobById =>
       JobLog.create.job(st.job).message("Job Stopped").timeStamp(new Date).save()
       managers.get("spider_" + SpiderUtil.nameEncoder(st.job.id.toString)).map(_ ! PoisonPill)
+
+    case r: RetriveProxyAction =>
+      println("retrive proxy in casper spider")
+      managers.values.map(_ ! RetriveProxyAction)
 
 
     case _ =>
@@ -131,6 +143,8 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
 
   def receive: Actor.Receive = {
 
+    case r: RetriveProxyAction => proxy = getProxy
+
     case r: RunJob =>
       if (state.isDefined)
         state = Some(state.get.copy(currentHits = total))
@@ -146,10 +160,9 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
           else {
             var delay: Double = 0
             if (total > 0) {
-              var del:Double = 0
+              var del: Double = 0
               val toGo = new Period(SchedulerUtils.getNow, state.nextDateTime).toStandardSeconds.getSeconds
-              if ((state.targetHits - (state.currentHits / actorNumber)) >0)
-              {
+              if ((state.targetHits - (state.currentHits / actorNumber)) > 0) {
                 val unit = toGo / (state.targetHits - (state.currentHits / actorNumber)).toDouble
                 del = unit - avgTime
               }
@@ -159,20 +172,20 @@ class JobManager(job: Job) extends Actor with akka.actor.ActorLogging {
 
             Range(0, actorNumber - activeActor).par.map {
               i =>
-//                println("inizializzo i range")
+              //                println("inizializzo i range")
                 val userA = userAgent(Random.nextInt(userAgent.length))
                 val proxyR = proxy(Random.nextInt(proxy.length))
                 var urlsR: List[Url] = List.empty[Url]
                 var urlsNum = Random.nextInt(10)
-              urlsNum = if (urlsNum >0) urlsNum else 1
-//                println("urlsnum "+ urlsNum +" delay: "+ delay)
+                urlsNum = if (urlsNum > 0) urlsNum else 1
+                //                println("urlsnum "+ urlsNum +" delay: "+ delay)
                 for (i <- 0 to urlsNum)
                   urlsR = urls(Random.nextInt((urls.size))) :: urlsR
                 val cp = CasperParam(userA, urlsR, Some(proxyR))
                 activeActor += 1
                 ActorManager.system.scheduler.scheduleOnce(delay seconds, runners, cp)
             }
-//            println("schedulo il prossimo ")
+            //            println("schedulo il prossimo ")
             ActorManager.system.scheduler.scheduleOnce(avgTime + 1 seconds, self, RunJob())
           }
 
@@ -217,7 +230,7 @@ class RunCasper extends Actor with akka.actor.ActorLogging {
       val startDate = DateTime.now()
       var command = ""
       var result = ""
-      val temp = java.io.File.createTempFile("casperjs", "script")
+      val temp = java.io.File.createTempFile("casperjs", ".js")
       val bw = new BufferedWriter(new FileWriter(temp))
       bw.write(SpiderUtil.generateString(cp))
       bw.close()
@@ -235,12 +248,12 @@ class RunCasper extends Actor with akka.actor.ActorLogging {
           line = subProcessInputReader.readLine()
         }
         process.destroy()
-//        println("ucciso il processo ")
+        //        println("ucciso il processo ")
 
 
       }
       catch {
-        case e: InterruptedException =>  println("timeout ")
+        case e: InterruptedException => println("timeout ")
       }
       try {
         temp.delete()
@@ -254,6 +267,83 @@ class RunCasper extends Actor with akka.actor.ActorLogging {
     case _ =>
   }
 
+}
+
+
+class RetriveProxy extends Actor with akka.actor.ActorLogging {
+
+
+  def receive: Actor.Receive = {
+    case r: RetriveProxyAction => {
+      println("retrive proxy")
+      val casperScript = java.io.File.createTempFile("casperjs", ".js")
+      val bw = new BufferedWriter(new FileWriter(casperScript))
+      bw.write( """casper.start('http://spys.ru/free-proxy-list/IT/', function() {
+                  |    this.echo(this.getHTML());
+                  |});
+                  |
+                  |casper.run();""".stripMargin)
+      bw.close()
+
+      val command = "casperjs test " + casperScript.getPath
+      var result = ""
+      var i = 0
+      try {
+        val process = ProcessUtils(command, 40).run()
+        val subProcessInputReader = new BufferedReader(new InputStreamReader(process.getInputStream()))
+        var line = subProcessInputReader.readLine()
+        while (line != null) {
+          if (i == 0)
+            i += 1
+          else
+            result += line + "\n"
+          line = subProcessInputReader.readLine()
+        }
+        process.destroy()
+
+      }
+      catch {
+        case e: InterruptedException => println("timeout ")
+      }
+      try {
+        casperScript.delete()
+      }
+      val newPage = java.io.File.createTempFile("casperjs_result", ".html")
+      val bw2 = new BufferedWriter(new FileWriter(newPage))
+      bw2.write(result)
+      bw2.close
+      val doc = Jsoup.parse(newPage, "UTF-8", "http://spys.ru/free-proxy-list/IT/")
+
+      //      val doc = Jsoup.connect("http://spys.ru/free-proxy-list/IT/").get()
+      var proxyList = List.empty[String]
+
+      val tr = doc.select(".spy14")
+      tr.foreach {
+        el =>
+          if (el.childNodes.size() == 4) {
+            val proxy = el.childNodes.get(0) + ":" + el.childNodes.get(3)
+            if (proxy.toString.matches("\\d+\\.\\d+\\.\\d+\\.\\d+:\\d+")) {
+              if (el.parent().parent().childNodes().get(2).childNodes().get(0).childNodes().get(0).toString.toLowerCase == "noa")
+                proxyList ::= proxy
+            }
+          }
+      }
+      newPage.delete()
+
+      if (!proxyList.isEmpty) {
+        val all = code.model.Proxy.findAll()
+        proxyList.foreach(p => code.model.Proxy.create.proxy(p).save())
+        all.foreach(_.delete_!)
+      }
+      println("retrive proxy finish ")
+      ActorManager.system.scheduler.scheduleOnce(1 day, self, RetriveProxyAction)
+      println("reset retrive proxy")
+      context.parent.tell(RetriveProxyAction, self)
+      println("send message to parent")
+
+    }
+    case _ =>
+  }
 }
 
 

@@ -33,9 +33,16 @@ libraryDependencies ++= {
     "org.postgresql" % "postgresql" % "9.3-1100-jdbc41",
     "com.typesafe.akka" %% "akka-actor" % "2.2.3",
     "com.typesafe.akka" %% "akka-slf4j" % "2.2.3",
-    "com.typesafe.akka" %% "akka-testkit" % "2.2.3"
+    "com.typesafe.akka" %% "akka-testkit" % "2.2.3",
+    "com.stackmob" %% "newman" % "1.3.5",
+    "org.jsoup" % "jsoup" % "1.7.2"
   )
 }
+
+libraryDependencies += "org.mozilla" % "rhino" % "1.7R4"
+
+
+
 
 
 
